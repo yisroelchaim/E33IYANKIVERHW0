@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SecureCommunicationComponent;
 
 namespace PoliceDispatcherClient
 {
@@ -29,6 +30,9 @@ namespace PoliceDispatcherClient
 
         private void CallButton_Click(object sender, EventArgs e)
         {
+            Communicator MyCommunicator = new Communicator();
+            string message = MyCommunicator.SendAlert(OfficerTextBox.Text, "Hello, from Police Dispatcher");
+            MessageBox.Show(message);
 
         }
     }

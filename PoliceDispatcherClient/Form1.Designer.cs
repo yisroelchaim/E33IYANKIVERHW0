@@ -59,7 +59,6 @@
             this.OfficerTextBox.Name = "OfficerTextBox";
             this.OfficerTextBox.Size = new System.Drawing.Size(100, 20);
             this.OfficerTextBox.TabIndex = 24;
-            this.OfficerTextBox.Text = "textBox3";
             // 
             // label5
             // 
@@ -97,7 +96,6 @@
             this.StateCombo.Name = "StateCombo";
             this.StateCombo.Size = new System.Drawing.Size(121, 21);
             this.StateCombo.TabIndex = 20;
-            this.StateCombo.Text = "comboBox2";
             // 
             // label4
             // 
@@ -149,7 +147,6 @@
             this.IncidentCombo.Name = "IncidentCombo";
             this.IncidentCombo.Size = new System.Drawing.Size(121, 21);
             this.IncidentCombo.TabIndex = 14;
-            this.IncidentCombo.Text = "comboBox1";
             // 
             // StreetTextBox
             // 
